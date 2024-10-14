@@ -1,0 +1,46 @@
+.lectura {
+    padding: 5px;
+    background-color: #e2ecec;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-areas: "header header header"
+                          "nav nav nav"
+                          "contenedor1 contenedor2 contenedor3"
+                          "contenedor4 contenedor5 contenedor6"
+                          
+                          "foot foot foot";
+                          
+}
+
+.lectura .header {
+    grid-area: header;
+    background-color: rgb(60, 204, 209);
+    justify-content: center;
+    align-items: center; 
+}
+.lectura .nav {
+    grid-area: nav;
+}
+.lectura .contenedor1 {
+    grid-area: contenedor1;
+}
+.lectura .contenedor2 {
+    grid-area: contenedor2;
+}
+.lectura .contenedor3 {
+    grid-area: contenedor3;
+}
+.lectura .contenedor4 {
+    grid-area: contenedor4;
+}
+.lectura .contenedor5 {
+    grid-area: contenedor5;
+}
+.lectura .contenedor6 {
+    grid-area: contenedor6;
+}
+
+.lectura .foot {
+    grid-area: foot;
+}

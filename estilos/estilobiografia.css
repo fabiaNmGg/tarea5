@@ -1,0 +1,30 @@
+.padre1{
+    padding:5px;
+    background-color: aliceblue;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 3fr 2fr 2fr;
+    grid-template-areas: "header1 header1 header1"
+                          "nav1 nav1 nav1"
+                          "cont11 cont12 cont13"
+                          "foot1 foot1 foot1";
+    
+}
+.padre1 .header1{
+    grid-area: header1;
+}
+.padre1 .nav1{
+    grid-area: nav;
+}
+.padre1 .cont11{
+    grid-area: cont11;
+}
+.padre1 .cont12{
+    grid-area: cont12;
+}
+.padre1 .cont13{
+    grid-area: cont13;
+}
+.padre1 .foot1{
+    grid-area: foot1;
+}

@@ -1,0 +1,23 @@
+.padre3{
+    padding:5px;
+    background-color: aliceblue;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-areas: 
+                          "cont31 cont32 cont33"
+                          ;
+    
+}
+
+.padre3 .cont31{
+    grid-area: cont31;
+}
+.padre3 .cont32{
+    grid-area: cont32;
+}
+.padre3 .cont33{
+    grid-area: cont33;
+    
+}
+

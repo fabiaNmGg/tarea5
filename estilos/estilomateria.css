@@ -1,0 +1,27 @@
+.padre2{
+    padding:5px;
+    background-color: aliceblue;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+                          "cont21 cont22 cont23 cont24 cont25"
+                          ;
+    
+}
+
+.padre2 .cont21{
+    grid-area: cont21;
+}
+.padre2 .cont22{
+    grid-area: cont22;
+}
+.padre2 .cont23{
+    grid-area: cont23;
+}
+.padre2 .cont24{
+    grid-area: cont24;
+}
+.padre2 .cont25{
+    grid-area: cont25;
+}
